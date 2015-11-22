@@ -147,8 +147,8 @@ ExtractedDataMeans <- ExtractedData %>%
 rm(ExtractedData)
 
 # For saving in a .txt file, use the code:
-# write.table(ExtractedDataMeans, 
-#           file = "./ExtractedDataMeans.txt", row.names = FALSE)
+ write.table(ExtractedDataMeans, 
+           file = "./ExtractedDataMeans.txt", row.names = FALSE)
 
 
 #Visulase the results
