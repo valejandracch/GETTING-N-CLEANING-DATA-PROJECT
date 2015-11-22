@@ -123,11 +123,6 @@ for (i in 1:length(VariableNames))
   VariableNames[i] = gsub("Acc","Acceleration",VariableNames[i])
   VariableNames[i] = gsub("[Jj]erk","DvDt",VariableNames[i])
   VariableNames[i] = gsub("[Mm]ag","Magnitude",VariableNames[i])
-#   VariableNames[i] = gsub("AccMag","AccelerationMagnitude",VariableNames[i])
-#   VariableNames[i] = gsub("([Bb]odyaccjerkmag)","BodyAccelerationDvDtMagnitude",
-#                           VariableNames[i])
-#   VariableNames[i] = gsub("JerkMag","DvDtMagnitude",VariableNames[i])
-#   VariableNames[i] = gsub("GyroMag","GyroscopeMagnitude",VariableNames[i])
 };
 
 # Excange the variable names of the extracted data for the new ones
