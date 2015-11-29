@@ -81,7 +81,7 @@ Order the data by subyect and activity class label unsing the arrage command fro
 
 
 Uses descriptive activity names to name the activities in the data set
-# Generates a new variable with the corresponding activity name of the class labels
+  Generates a new variable with the corresponding activity name of the class labels
 
 Extracts only the measurements on the mean and standard deviation for each measurement. 
   using select comand with contains argument from de dplyr library 
